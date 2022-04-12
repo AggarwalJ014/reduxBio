@@ -61,7 +61,10 @@ const mapDispatchToProps=(dispatch)=>{
 
 const mapStateToProps=(state)=>{
     return{
-        valueName: state.valueName
+        valueName: state.valueName,
+        valueEmail:state.valueEmail ,
+        valueGender: state.valueGender,
+        valueAge: state.valueAge
     }
 }
    
